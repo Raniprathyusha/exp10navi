@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348274666857",
+    "project_id": "exp10navi",
+    "storage_bucket": "exp10navi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348274666857:android:8ecaf4213a86c0ac4421f8",
+        "android_client_info": {
+          "package_name": "com.example.exp10navi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348274666857-87fq5fjvl29sqarqtsasaej1tk8h4kse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC21DOSKZQLdkjoloQcg18sD_NTeIdmMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348274666857-87fq5fjvl29sqarqtsasaej1tk8h4kse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

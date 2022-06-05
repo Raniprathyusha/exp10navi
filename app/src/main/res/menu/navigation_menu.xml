@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/exp2"
+        android:title="Experiment-2" />
+    <item
+        android:id="@+id/exp3"
+        android:title="Experiment-3" />
+    <item
+        android:id="@+id/exp4"
+        android:title="Experiment-4" />
+    <item
+        android:id="@+id/exp5"
+        android:title="Experiment-5" />
+    <item
+        android:id="@+id/exp6"
+        android:title="Experiment-6" />
+    <item
+        android:id="@+id/exp7"
+        android:title="Experiment-7" />
+    <item
+        android:id="@+id/expe8"
+        android:title="Experiment-8" />
+    <item
+        android:id="@+id/exp9"
+        android:title="Experiment-9" />
+
+</menu>

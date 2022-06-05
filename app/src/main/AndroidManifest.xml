@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exp10navi">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Exp10navi">
+        <activity
+            android:name=".exp9sq"
+            android:exported="false" />
+        <activity
+            android:name=".likeact"
+            android:exported="false" />
+        <activity
+            android:name=".dislikeact"
+            android:exported="false" />
+        <activity
+            android:name=".exp7"
+            android:exported="false" />
+        <activity
+            android:name=".demo"
+            android:exported="false" />
+        <activity
+            android:name=".exp5"
+            android:exported="false" />
+        <activity
+            android:name=".blankfrag"
+            android:exported="false" />
+        <activity
+            android:name=".exp4"
+            android:exported="false" />
+        <activity
+            android:name=".exp6"
+            android:exported="false" />
+        <activity
+            android:name=".mail"
+            android:exported="false" />
+        <activity
+            android:name=".regform"
+            android:exported="false" />
+        <activity
+            android:name=".exp3"
+            android:exported="false" />
+        <activity
+            android:name=".camera"
+            android:exported="false" />
+        <activity
+            android:name=".exp2"
+            android:exported="true"
+            android:theme="@style/fs" />
+        <activity
+            android:name=".exp8"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".directrplyreceiver" />
+    </application>
+
+</manifest>
